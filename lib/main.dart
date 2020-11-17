@@ -1,8 +1,35 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
+import 'navigation.dart';
+
+//void main() => runApp(MyApp());
+
+void main() {
+  runApp(MyApp());
+}
 
 
-void main() => runApp(MyApp());
+class MyApp extends StatelessWidget {
+  static const String _title = "Archeolog";
 
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: _title,
+      home: NavigationBar(),
+    );
+  }
+}
+
+
+
+
+
+
+
+
+/*
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -75,16 +102,9 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+*/
 
-// Copyright 2019 The Flutter team. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-// Copyright 2019 The Flutter team. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-
+/*
 
 class _RaisedButtonDemo extends StatelessWidget {
   @override
@@ -110,7 +130,9 @@ class _RaisedButtonDemo extends StatelessWidget {
       ),
     );
   }
-}
+}*/
+
+
 
 
 
