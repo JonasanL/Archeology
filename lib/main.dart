@@ -2,13 +2,15 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'navigation.dart';
+import 'dart:async';
+import 'package:path/path.dart';
+import 'package:sqflite/sqflite.dart';
 
 //void main() => runApp(MyApp());
 
 void main() {
   runApp(MyApp());
 }
-
 
 class MyApp extends StatelessWidget {
   static const String _title = "Archeolog";
@@ -21,13 +23,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
-
 
 /*
 class MyApp extends StatelessWidget {
@@ -131,8 +126,3 @@ class _RaisedButtonDemo extends StatelessWidget {
     );
   }
 }*/
-
-
-
-
-
