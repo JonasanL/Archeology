@@ -137,9 +137,6 @@ class CustomButtonRow extends StatelessWidget {
   }
 
 }
-
-
-
 /*
 Custom Home Button that is used to display common archeology label
 It contains one image and one text that retreat from database
@@ -165,26 +162,5 @@ class CustomHomeButton extends StatelessWidget {
 
     );
   }
-
-
-
 }
 
-
-
-
-
-/*
-class SecondScreen extends StatelessWidget {
-  @override
-  Widget build (BuildContext ctxt) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: new Text("Multi Page Application Page-1"),
-      ),
-      body: new Text("Another Page...!!!!!!"),
-    );
-  }
-}
-
- */
