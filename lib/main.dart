@@ -11,8 +11,8 @@ import 'database.dart';
 
 
 void main() async {
-  SQLiteDatabase a = new SQLiteDatabase();
-  a.createDatabase();
+  //SQLiteDatabase a = new SQLiteDatabase();
+  //a.createDatabase();
   runApp(MyApp());
 }
 

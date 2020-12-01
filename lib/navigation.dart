@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'home.dart';
+import 'record_page.dart';
 
 /// This is the stateful widget that the main application instantiates.
 class NavigationBar extends StatefulWidget {
@@ -17,10 +18,7 @@ class _NavigationBar extends State<NavigationBar> {
   TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
-    Text(
-      'Index 1: Record',
-      style: optionStyle,
-    ),
+    RecordScreen(),
     Text(
       'Index 2: Me',
       style: optionStyle,
