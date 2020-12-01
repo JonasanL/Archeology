@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 //import 'dart:math';
-import 'LithicPage.dart';
+import 'lithic_page.dart';
 import 'database.dart';
 
 int update = 0;
